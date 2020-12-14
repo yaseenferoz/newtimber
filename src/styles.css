@@ -1,0 +1,59 @@
+@import "bootstrap/dist/css/bootstrap.css";
+/* You can add global styles to this file, and also import other style files */
+.pading-top-30{
+    padding-top: 30px;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+.bg-light{
+    background-color: #1169c2 !important;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    color: #fff;
+}
+.btn-outline-success{
+    border-color: #fff;
+    color: #fff;
+}
+.btn-outline-success:hover{
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.each_product{
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 5px;
+    font-size: 14px;
+}
+.btn-success{
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+.btn-success:hover{
+    background-color: #0056b3;
+}
+.carousel-item img{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+.aboutus_banner img{
+    display: block;
+    width: 100%;
+}
+.footer{
+    background: #000000;
+    padding: 10px 0;
+    color: #fff;
+    margin-top: 30px;
+}
+.carousel-control-prev, .carousel-control-next{
+    cursor: pointer;
+}
